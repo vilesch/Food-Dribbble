@@ -1,0 +1,146 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+}
+
+
+body{
+  border: .2rem solid white;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__ul {
+  list-style: none;
+  border: orange solid 2px;
+  font-size: .6rem;
+}
+
+.nav__logo {
+  margin-left: 2rem;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+span {
+  color: orange;
+}
+
+.cta {
+  display: inline-block;
+  text-decoration: none;
+  font-size: .6rem;
+}
+
+.cta2 {
+  background-color: rgb(252, 162, 6);
+  color: white;
+  width: 4.5rem;
+  height: 1.8rem;
+  border-radius: 7px;
+  padding: .5rem;
+}
+
+.nav__logo {
+  display: flex;
+  justify-content: left;
+}
+
+li {
+  display: inline-block;
+}
+
+.click {
+  display: inline-block;
+}
+
+.container1 {
+background-color: #ffe5d9;
+display: flex;
+padding-left: 2.5rem;
+}
+
+.food {
+  width: 40%;
+  margin: 2.5rem;
+  padding: 1rem;
+}
+
+.mail__image {
+  width: 40%;
+  margin: 2.5rem;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: .7rem;
+  color: rgb(236, 134, 39);
+}
+
+p {
+  font-size: .7rem;
+  color: rgb(145, 131, 131);
+}
+
+.container2 {
+  display: flex;
+  margin: 5.5rem;
+}
+
+.cta3 {
+  background-color: rgb(3, 3, 3);
+  color: white;
+  width: 4.5rem;
+  height: 1.8rem;
+  border-radius: 7px;
+  padding: .5rem;
+}
+
+.container3 {
+  margin: 6rem;
+}
+
+.title {
+text-align:center ;
+
+.container_boxes {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.order {
+  width: 20%;
+  position: absolute;
+}
+
+.delivery {
+  width: 20%;
+  position: absolute;
+
+}
+
+.payment {
+  width: 20%;
+  position: absolute;
+
+  }
